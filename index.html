@@ -17,50 +17,59 @@
             <header>
                 <h1>My To-do's List</h1>
             </header>
-            <main>
+            <main id="myUL">
                 <div class="title d-flex">
-                    <input type="text" name="" class="form-control" placeholder="New Task...">
-                    <button type="submit" class="btn btn-primary">Add to List</button>
+                    <input type="text" name="" id="input" class="form-control" placeholder="New Task...">
+                    <button type="button" id="add" class="btn btn-primary">Add to List</button>
                 </div>
-                <div class="LHTML">
-                    <h3>Learn HTML</h3>
+                <div class="LHTML position">
+                    <h3 id="content">Learn HTML</h3>
 
-                    <div class="status">
-                        <span class="done p-1"> Mark as Done</span> |
+                    <div class="status absolute">
+                        <span class="done"> Mark as Done</span> |
                         <span class="delete"> Delete</span>
-                    
+
                     </div>
 
+                    <hr>
                 </div>
-                <hr>
-                <div class="LCSS">
-                    <h3>Learn CSS</h3>
-                    <div class="status">
-                            <span class="done"> Mark as Done</span> |
-                            <span class="delete"> Delete</span>
-                        </div>
+
+                <div class="LCSS position">
+                    <h3 id="content">Learn CSS</h3>
+
+                    <div class="status absolute">
+                        <span class="done"> Mark as Done</span> |
+                        <span class="delete"> Delete</span>
+                    </div>
+                    <hr>
                 </div>
-                <hr>
-                <div class="ml-3 mt-4 font-size-16 LJAVA">
-                    <h3>Learn JavaScript</h3>
-                    <div class="status">
-                            <span class="done p-1"> Mark as Done</span> |
-                            <span class="delete"> Delete</span>
-                        </div>
+
+                <div class="ml-3 mt-4 font-size-16 LJAVA position">
+                    <h3 id="content">Learn JavaScript </h3>
+                    <div class="status absolute">
+                        <span class="done"> Mark as Done</span> |
+                        <span class="delete"> Delete</span>
+                    </div>
+                    <hr>
                 </div>
-                <hr>
-                <div class="ml-3 mt-4 font-size-16 LPHP" >
-                    <h3>Learn PHP</h3>
-                    <div class="status">
-                            <span class="done p-1"> Mark as Done</span> |
-                            <span class="delete"> Delete</span>
-                        </div>
+
+                <div class="ml-3 mt-4 font-size-16 LPHP position">
+                    <h3 id="content">Learn PHP</h3>
+                    <div class="status absolute">
+                        <span class="done"> Mark as Done</span> |
+                        <span class="delete"> Delete</span>
+                    </div>
+                    <hr>
+
                 </div>
+
 
 
             </main>
         </div>
     </div>
+
+    <script src="javascript.js"></script>
 </body>
 
 </html>
