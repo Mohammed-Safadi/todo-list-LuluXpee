@@ -4,9 +4,9 @@ header{
 }
 
 .title input{
-  width: 300px;
-  margin-right: 10px;
-    
+    width: 300px;
+    margin-right: 10px;
+
 }
 .position{
     position: relative;
@@ -15,7 +15,7 @@ header{
     font-size: 16px;
     margin-top: 50px;
     margin-left: 20px;
-    
+
 
 }
 .txt{
@@ -28,23 +28,25 @@ header{
     right: 0;
     top: 0;
     position: absolute;
-   display: none;
+    display: none;
 
 }
- h3:hover + .status{
+h3:hover + .status{
     display: block;
-    
-    
+
+
+}
+a{
+    color: black;
 }
 
- 
-  .done{
+.done{
     color: green;
     cursor: pointer;
 
 }
 .delete{
-    color: red;
+    color: red; !important;
     cursor: pointer;
 }
 
@@ -52,9 +54,11 @@ header{
     font-size: 16px;
     margin-top: 20px;
     margin-left: 20px;
-    
+
 
 }
 .font-size-16 h3{
     font-size: 16px;
 }
+
+
