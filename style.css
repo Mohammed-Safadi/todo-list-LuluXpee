@@ -1,0 +1,64 @@
+header{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title input{
+    width: 300px;
+    margin-right: 10px;
+
+}
+.position{
+    position: relative;
+}
+.LHTML h3{
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+
+}
+.txt{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.absolute{
+    right: 0;
+    top: 0;
+    position: absolute;
+    display: none;
+
+}
+h3:hover + .status{
+    display: block;
+
+
+}
+a{
+    color: black;
+}
+
+.done{
+    color: green;
+    cursor: pointer;
+
+}
+.delete{
+    color: red; !important;
+    cursor: pointer;
+}
+
+.LCSS h3{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+.font-size-16 h3{
+    font-size: 16px;
+}
+
+
